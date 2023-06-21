@@ -11,6 +11,7 @@ There are two version of ObjectAid I've uploaded. The ObjectAid-Fixed is the ver
 Also, this isn't fool-proof. I've had installations work and others that broke. I would install this on a clean copy of Eclipse, separate from your main Eclipse installation, and it may take a few tries to install correctly-- just a warning.
 
 INSTRUCTIONS:
+
 Before you do anything, add the following lines to your eclipse.ini and save it.
 (at the bottom, the first one may already be there)
 
