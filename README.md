@@ -30,3 +30,5 @@ NOTE: If you have a broken version of ObjectAid already installed, you'll need t
 5. Set the name to ObjectAid
 6. Next / Accept / Trust anything that comes up
 7. Restart Eclipse and ObjectAid should be fully functional now
+
+Feel free to leave feedback, ask questions, or share your experiences!
