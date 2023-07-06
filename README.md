@@ -6,7 +6,10 @@
 - [About this Project](#project)
 - [Important Information](#important)
 - [Instructions](#instructions)
-- [FAQ](#faq)
+- [Discussion Board](#discussion)
+* [FAQ](#faq)
+  * [Errors / Button Not Working!](#errors)
+  * [What About Linux?](#linux)
 <br /><br />
 
 <a name="project"></a>
@@ -49,13 +52,17 @@ Before you do anything, add the following lines to your eclipse.ini and save it.
 5. Set the name to ObjectAid
 6. Next / Accept / Trust anything that comes up
 7. Restart Eclipse and ObjectAid should be fully functional now
+<br /><br />
 
-### Feel free to leave feedback, ask questions, or share your experiences!
+<a name="discussion"></a>
+## DISCUSSION BOARD
+### [Feel free to leave feedback, ask questions, or share your experiences!](https://github.com/RWPhillips/ObjectAid-Fixed/discussions)
 <br />
 
 <a name="faq"></a>
 ## FAQ:
 
+<a name="errors"></a>
 ### I See Errors and I Can Open The ObjectAid Window, But The Button Doesn't Work!
 
 Hopefully you followed my advice and installed this on a second, clean version of Eclipse, because this is what happens if the installation messes up BUT not all is lost! 
@@ -63,3 +70,8 @@ Hopefully you followed my advice and installed this on a second, clean version o
 Although broken, you can still generate UMLs, you just need a blank .ucls file. I'm not sure why this happens, but the only thing broken in this install is that you cannot generate the .ucls files-- so you CAN generate UMLs, you just can't create the file that holds them. That's why I have now generated and provided the blank.ucls above for you to rename / use as many times as you need. 
 
 Download the blank.ucls file, put it in your folder with your project, then drag the files over into the UML. You will recieve errors (Eclipse will seem really pissed about it) but you can ignore the errors / click OK and it will generate the UML just fine. You can even right-click and save it as an image!
+
+<a name="linux"></a>
+### Does This Work On Linux?
+
+No clue! I don't have a Linux computer currently to try it on, so please let me know if you get it working on Linux!
