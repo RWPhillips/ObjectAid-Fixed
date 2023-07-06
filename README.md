@@ -4,12 +4,14 @@
 - [Important-- Read This](#important)
 - [Instructions](#instructions)
 - [FAQ](#faq)
+<br /><br />
 
 <a name="project"></a>
 ## ABOUT THIS PROJECT:
 
 This is the ObjectAid plugin for Eclipse, updated to work with Eclipse in 2023 with Java 17 (at least).
 ObjectAid's developer was in a tragic accident, therefore ObjectAid has not been updated since. As Eclipse has been updated in recent years, ObjectAid had stopped working. I was able to find out what was wrong with ObjectAid and get it working with the latest version of Eclipse. Therefore, I'm sharing this file in hopes this can help others who are also looking for a UML solution.
+<br /><br /><br />
 
 <a name="important"></a>
 ## IMPORTANT-- READ THIS:
@@ -19,6 +21,7 @@ I've added an FAQ at the bottom of this document, that I suggest everyone read b
 
 There are two version of ObjectAid I've uploaded. The ObjectAid-Fixed is the version I've used with success, but the ObjectAid with xStream 1.4.20 is the latest possible update to this file (future-proof version). Both should work, just one is tested more than the other.
 Also, this isn't fool-proof. I've had installations work and others that broke. I would install this on a clean copy of Eclipse, separate from your main Eclipse installation, and it may take a few tries to install correctly-- just a warning.
+<br /><br /><br />
 
 <a name="instructions"></a>
 ## INSTRUCTIONS FOR WINDOWS / MAC OS:
@@ -44,11 +47,12 @@ Before you do anything, add the following lines to your eclipse.ini and save it.
 7. Restart Eclipse and ObjectAid should be fully functional now
 
 ### Feel free to leave feedback, ask questions, or share your experiences!
+<br />
 
 <a name="faq"></a>
 ## FAQ:
 
-### I SEE ERRORS / I CAN OPEN THE OBJECTAID WINDOW, BUT THE BUTTON DOESN'T WORK!
+### I See Errors and I Can Open The ObjectAid Window, But The Button Doesn't Work!
 
 Hopefully you followed my advice and installed this on a second, clean version of Eclipse, because this is what happens if the installation messes up BUT not all is lost! 
 
