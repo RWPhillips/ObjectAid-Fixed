@@ -1,19 +1,26 @@
 # ObjectAid-Fixed
 
+- [About this Project](#project)
+- [Important-- Read This](#important)
+- [Instructions](#instructions)
+- [FAQ](#faq)
+
+<a name="project"></a>
 ## ABOUT THIS PROJECT:
 
 This is the ObjectAid plugin for Eclipse, updated to work with Eclipse in 2023 with Java 17 (at least).
 ObjectAid's developer was in a tragic accident, therefore ObjectAid has not been updated since. As Eclipse has been updated in recent years, ObjectAid had stopped working. I was able to find out what was wrong with ObjectAid and get it working with the latest version of Eclipse. Therefore, I'm sharing this file in hopes this can help others who are also looking for a UML solution.
 
-
+<a name="important"></a>
 ## IMPORTANT-- READ THIS:
 
-Update July 6th, 2023 - I've added an FAQ at the bottom of this document, that I suggest everyone read before doing the installation.
+### Update July 6th, 2023: 
+I've added an FAQ at the bottom of this document, that I suggest everyone read before doing the installation.
 
 There are two version of ObjectAid I've uploaded. The ObjectAid-Fixed is the version I've used with success, but the ObjectAid with xStream 1.4.20 is the latest possible update to this file (future-proof version). Both should work, just one is tested more than the other.
 Also, this isn't fool-proof. I've had installations work and others that broke. I would install this on a clean copy of Eclipse, separate from your main Eclipse installation, and it may take a few tries to install correctly-- just a warning.
 
-
+<a name="instructions"></a>
 ## INSTRUCTIONS FOR WINDOWS / MAC OS:
 
 Before you do anything, add the following lines to your eclipse.ini and save it.
@@ -38,6 +45,7 @@ Before you do anything, add the following lines to your eclipse.ini and save it.
 
 ### Feel free to leave feedback, ask questions, or share your experiences!
 
+<a name="faq"></a>
 ## FAQ:
 
 ### I SEE ERRORS / I CAN OPEN THE OBJECTAID WINDOW, BUT THE BUTTON DOESN'T WORK!
