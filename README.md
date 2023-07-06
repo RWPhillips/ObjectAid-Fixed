@@ -41,7 +41,9 @@ Feel free to leave feedback, ask questions, or share your experiences!
 
 FAQ:
 
-HELP, I INSTALLED THIS AND I NOW SEE ERRORS. I CAN OPEN THE OBJECTAID WINDOW, BUT IT WON'T GENERATE (THE BUTTON DOESN'T WORK)!
+HELP, I INSTALLED THIS AND I NOW SEE ERRORS. 
+I CAN OPEN THE OBJECTAID WINDOW, BUT IT WON'T GENERATE (THE BUTTON DOESN'T WORK)!
+
 Hopefully you followed my advice and installed this on a second, clean version of Eclipse, because this is what happens if the installation messes up BUT not all is lost! 
 
 Although broken, you can still generate UMLs, you just need a blank .ucls file. I'm not sure why this happens, but the only thing broken in this install is that you cannot generate the .ucls files-- so you CAN generate UMLs, you just can't create the file that holds them. That's why I have now generated and provided the blank.ucls above for you to rename / use as many times as you need. 
