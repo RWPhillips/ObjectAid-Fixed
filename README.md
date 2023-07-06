@@ -8,11 +8,13 @@ ObjectAid's developer was in a tragic accident, therefore ObjectAid has not been
 
 IMPORTANT-- READ THIS:
 
+Update July 6th, 2023 - I've added an FAQ at the bottom of this document, that I suggest everyone read before doing the installation.
+
 There are two version of ObjectAid I've uploaded. The ObjectAid-Fixed is the version I've used with success, but the ObjectAid with xStream 1.4.20 is the latest possible update to this file (future-proof version). Both should work, just one is tested more than the other.
 Also, this isn't fool-proof. I've had installations work and others that broke. I would install this on a clean copy of Eclipse, separate from your main Eclipse installation, and it may take a few tries to install correctly-- just a warning.
 
 
-INSTRUCTIONS:
+INSTRUCTIONS FOR WINDOWS / MAC OS:
 
 Before you do anything, add the following lines to your eclipse.ini and save it.
 (at the bottom, the first one may already be there)
@@ -36,3 +38,12 @@ NOTE: If you have a broken version of ObjectAid already installed, you'll need t
 
 
 Feel free to leave feedback, ask questions, or share your experiences!
+
+FAQ:
+
+HELP, I INSTALLED THIS AND I NOW SEE ERRORS. I CAN OPEN THE OBJECTAID WINDOW, BUT IT WON'T GENERATE (THE BUTTON DOESN'T WORK)!
+Hopefully you followed my advice and installed this on a second, clean version of Eclipse, because this is what happens if the installation messes up BUT not all is lost! 
+
+Although broken, you can still generate UMLs, you just need a blank .ucls file. I'm not sure why this happens, but the only thing broken in this install is that you cannot generate the .ucls files-- so you CAN generate UMLs, you just can't create the file that holds them. That's why I have now generated and provided the blank.ucls above for you to rename / use as many times as you need. 
+
+Download the blank.ucls file, put it in your folder with your project, then drag the files over into the UML. You will recieve errors (Eclipse will seem really pissed about it) but you can ignore the errors / click OK and it will generate the UML just fine. You can even right-click and save it as an image!
